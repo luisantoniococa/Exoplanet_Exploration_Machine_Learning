@@ -15,3 +15,11 @@ The project consists in 3 parts.
 * Third part is to vizualize some of the data for better understanding of the model. 
 
 #### Project is going to me excecuted in Python and Jupyter notebooks.
+#### The libraries used include, pandas, matplotlib, numpy, sklearn, TensorFlow 2.0
+
+## Cleaning the data
+* One of the first challenges was to clean the data and perform feature selection.
+* It used the Correlation matrix with Pearson Correlation Coefficient to identify the multicolinearity
+* values with a correlation higher than 0.6 in respect to other idependent variable were taked out. Most of them were the error recorded from some of the values.
+
+![Correlation_matrix](https://github.com/luisantoniococa/Exoplanet_Exploration_Machine_Learning/blob/master/Correlation_matrix.png "Pearson Correlation Coeficient Matrix with Heatmap")
