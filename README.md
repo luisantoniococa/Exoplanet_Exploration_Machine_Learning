@@ -21,9 +21,9 @@ The project consists in 3 parts.
 * One of the first challenges was to clean the data and perform feature selection.
 
 *Created a in64 column with the numerical values of the target column.
-** FALSE POSITIVE: 0 
-** CONFIRMED:      1
-** CANDIDATE:      2
+  * FALSE POSITIVE: 0 
+  * CONFIRMED:      1
+  * CANDIDATE:      2
 
 * It used the Correlation matrix with Pearson Correlation Coefficient to identify the multicolinearity
 * values with a correlation higher than 0.6 in respect to other idependent variable were taked out. Most of them were the error recorded from some of the values.
