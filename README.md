@@ -25,3 +25,8 @@ The project consists in 3 parts.
 ![Correlation_matrix](https://github.com/luisantoniococa/Exoplanet_Exploration_Machine_Learning/blob/master/Correlation_matrix.png "Pearson Correlation Coeficient Matrix with Heatmap")
 
 ## Feature Selection
+
+Created a in64 column with the numerical values of the target column.
+* FALSE POSITIVE: 0 
+* CONFIRMED:      1
+* CANDIDATE:      2
