@@ -23,3 +23,5 @@ The project consists in 3 parts.
 * values with a correlation higher than 0.6 in respect to other idependent variable were taked out. Most of them were the error recorded from some of the values.
 
 ![Correlation_matrix](https://github.com/luisantoniococa/Exoplanet_Exploration_Machine_Learning/blob/master/Correlation_matrix.png "Pearson Correlation Coeficient Matrix with Heatmap")
+
+## Feature Selection
