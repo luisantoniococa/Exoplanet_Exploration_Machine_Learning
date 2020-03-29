@@ -32,3 +32,4 @@ The project consists in 3 parts.
 
 ## Feature Selection
 
+![Selected_features](https://github.com/luisantoniococa/Exoplanet_Exploration_Machine_Learning/blob/master/selected_features_table.png "Selected features after the Chi Squared test")
