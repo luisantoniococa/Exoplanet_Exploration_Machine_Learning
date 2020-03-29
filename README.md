@@ -30,6 +30,12 @@ The project consists in 3 parts.
 
 ![Correlation_matrix](https://github.com/luisantoniococa/Exoplanet_Exploration_Machine_Learning/blob/master/Correlation_matrix.png "Pearson Correlation Coeficient Matrix with Heatmap")
 
-## Feature Selection
-
+## Feature Selection/ Dimentionality Reduction
+* Reduced the amount the features from 41 to 26 based in the multicolinearity and the pearson correlation matrix showed earlier.
+* Created a few test to reduce the amount of features for the model. 
+* Selected the Univariate Feature Selection (chi square test) score as our selector. 
+* Based in their score, the following table shows the 15 values with the highest score.
 ![Selected_features](https://github.com/luisantoniococa/Exoplanet_Exploration_Machine_Learning/blob/master/selected_features_table.png "Selected features after the Chi Squared test")
+Finally we created a pandas dataframe with the selected features and saved as cleaned_dataset.csv.
+
+## Model Evaluation
