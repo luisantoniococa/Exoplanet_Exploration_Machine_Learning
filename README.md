@@ -39,3 +39,35 @@ The project consists in 3 parts.
 Finally we created a pandas dataframe with the selected features and saved as cleaned_dataset.csv.
 
 ## Model Evaluation
+Evaluated a several clasification models. The data was splited into X_test, y_test, X_train and y_train. Also the X data (features) was scaled using MinMaxScaler from sklearn. 
+
+The trained models scores can be seen below. The score was obtained by evaluating the test data.
+
+| Model      | Train score | Test score |
+| --------- | ---------| -----:|
+| Suport Vector Machine with GridSearch  | 0.8594316231165363 | 0.8569794050343249 |
+| Logistic Regression     |   0.8359717718863247 | 0.8386727688787186 |
+| Desicion tree classifier      |    - | 0.835812356979405 |
+| Random Forest classifier     |   - | 0.8947368421052632 |
+
+We were able to use the Hyperparameter Tuning when using the SVM and that helped attain a greater accuracy. 
+#### Deep Neural Network 
+It was also decided to train a Deep Neural Netowrk model and find out if the model could be improved.
+The model had the following structure
+* 200 epochs
+* 15 input nodes, 3 output nodes
+* 2 hidden layers with 50 and 70 nodes respectively
+* Relu activation function
+* Adam optimizer
+* Categorical Crossentropy as a loss function
+* Softmax as the final Squashing function
+The model was trained focusing in accuracy
+#### After 200 epochs was tested/evaluated and got the final results
+`
+1748/1748 - 0s - loss: 0.3586 - accuracy: 0.8913
+Loss: 0.35862062653224036, Accuracy: 0.8913043737411499`
+
+
+## Conclusion
+We were able to attain an accuracy close to 90 percent in 3 of our models. 
+The best models included the Support vector machine (SVM), Random Forest and Deep neural Network (DNN). We saved the SVM and the DNN models in 2 different files. We were completed our goal of training the model and baing able to predict close to 90% of the data. 
