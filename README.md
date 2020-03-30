@@ -6,7 +6,7 @@ The author of this dataset provided the following context
 
 Kepler had verified 1284 new exoplanets as of May 2016. As of October 2017 there are over 3000 confirmed exoplanets total (using all detection methods, including ground-based ones). The telescope is still active and continues to collect new data on its extended mission."
 
-#### for more information of the dataset please visit https://www.kaggle.com/nasa/kepler-exoplanet-search-results
+#### For more information of the dataset please visit https://www.kaggle.com/nasa/kepler-exoplanet-search-results
 ## Overview
 * My goal is to create a machine learning model that can classify based in the data if is a False Positive, Candidate or a Confirmed exoplanet.
 The project consists in 3 parts. 
@@ -26,7 +26,7 @@ The project consists in 3 parts.
   + CANDIDATE:      2
 
 * It used the Correlation matrix with Pearson Correlation Coefficient to identify the multicolinearity
-* values with a correlation higher than 0.6 in respect to other idependent variable were taked out. Most of them were the error recorded from some of the values.
+* Values with a correlation higher than 0.6 in respect to other idependent variable were taked out. Most of them were the error recorded from some of the values.
 
 ![Correlation_matrix](https://github.com/luisantoniococa/Exoplanet_Exploration_Machine_Learning/blob/master/Correlation_matrix.png "Pearson Correlation Coeficient Matrix with Heatmap")
 
