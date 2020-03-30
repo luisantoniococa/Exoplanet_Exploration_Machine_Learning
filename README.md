@@ -62,7 +62,7 @@ The model had the following structure
 * Categorical Crossentropy as a loss function
 * Softmax as the final Squashing function
 The model was trained focusing in accuracy
-#### After 200 epochs was tested/evaluated and got the final results
+#### After 200 epochs, the model was tested/evaluated and got the final results
 `
 1748/1748 - 0s - loss: 0.3586 - accuracy: 0.8913
 Loss: 0.35862062653224036, Accuracy: 0.8913043737411499`
